@@ -1,0 +1,22 @@
+<div class="formulario">
+    <h1>Ingreso de Personas</h1>
+    <div>
+        <label>Nombre</label><input type="text" [(ngModel)]="persona.nombre">
+    </div>
+    <div>
+        <label>Apellido</label><input type="text" [(ngModel)]="persona.apellido">
+    </div>
+    <div>
+        <label>Ciudad</label><input type="text" [(ngModel)]="persona.ciudad">
+    </div>
+    <div>
+        <label>Direccion</label><input type="text" [(ngModel)]="persona.direccion">
+    </div>
+    <div>
+        <label>Pais</label><input type="text" [(ngModel)]="persona.pais">
+    </div>
+    <div>
+        <label>Fecha Nacimiento</label><input type="text" [(ngModel)]="persona.fechaNacimiento">
+    </div>
+    <button (click)=guardarPersona()>Guardar</button>
+</div>

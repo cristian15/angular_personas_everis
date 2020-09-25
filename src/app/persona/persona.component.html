@@ -1,0 +1,22 @@
+<h1>Detalle de Persona</h1>
+<div class="detalle">
+    <div>
+        <label>Nombre: </label> {{persona.nombre}}
+    </div> 
+    <div>
+        <label>Apellido: </label> {{persona.apellido}}
+    </div> 
+    <div>
+        <label>Direccion: </label> {{persona.direccion}}
+    </div> 
+    <div>
+        <label>Pais: </label> {{persona.pais}}
+    </div> 
+    <div>
+        <label>Ciudad: </label> {{persona.ciudad}}
+    </div> 
+    <div>
+        <label>Fecha Nacimiento: </label> {{persona.fechaNacimiento}}
+    </div> 
+</div>
+<button [routerLink]="'/ingreso'" [state]="{data: persona}" >Editar</button>

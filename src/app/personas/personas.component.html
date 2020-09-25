@@ -1,0 +1,22 @@
+<table>
+    <thead>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Dirección</th>
+        <th>Ciudad</th>
+        <th>Pais</th>
+        <th>Fecha Nacimiento</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let p of personas">
+            <td>{{p.id}}</td>
+            <td>{{p.nombre}}</td>
+            <td>{{p.apellido}}</td>
+            <td>{{p.direccion}}</td>
+            <td>{{p.ciudad}}</td>
+            <td>{{p.pais}}</td>
+            <td>{{p.fechaNacimiento}}</td>
+        </tr>
+    </tbody>
+</table>
